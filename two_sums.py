@@ -1,4 +1,3 @@
-
 def two_sums(target, target_list):
     # create hashmap storing each num as key and index as value
     num_to_index = {}
