@@ -2,7 +2,7 @@
 def two_sums(target, target_list):
     # create hashmap storing each num as key and index as value
     num_to_index = {}
-
+    # loop through the list and get both the value(key ) and index(value) of each element
     for i, num in enumerate(target_list):
         compliment = target - num
         if compliment in num_to_index:
